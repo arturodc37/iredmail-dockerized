@@ -3,7 +3,7 @@
 # please do __NOT__ modify it manually.
 #
 
-FROM ubuntu:jammy
+FROM ubuntu:24.04
 MAINTAINER Zhang Huangbin <zhb@iredmail.org>
 
 # SOGo uses port `20000` by default.

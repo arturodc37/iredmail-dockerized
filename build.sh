@@ -10,7 +10,7 @@ shift
 
 if [[ X"${f}" == X"" ]]; then
     df="Dockerfiles/Dockerfile"
-    label="iredmail/mariadb"
+    label="iredmail-custom"
 else
     df="Dockerfiles/${f}"
     label="iredmail/${f}"
@@ -19,6 +19,5 @@ fi
 [[ -f ${df} ]] || (echo "Docker file ${df} doesnt exist." && exit 255)
 
 docker build \
-    --progress plain \
-    --tag ${label}:nightly \
+    --tag ${label}:v20251222 \
     -f ${df} .

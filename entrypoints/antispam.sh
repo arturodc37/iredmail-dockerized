@@ -55,7 +55,7 @@ touch_files ${SYS_USER_AMAVISD} ${SYS_GROUP_AMAVISD} 0640 ${SPAMASSASSIN_CONF_LO
 usermod -G ${SYS_GROUP_AMAVISD} ${SYS_USER_CLAMAV}
 
 # Generate DKIM key for first mail domain.
-[[ -f ${DKIM_KEY} ]] || /usr/sbin/amavisd-new genrsa ${DKIM_KEY} 1024
+[[ -f ${DKIM_KEY} ]] || /usr/sbin/amavisd genrsa ${DKIM_KEY} 1024
 touch_files ${SYS_USER_AMAVISD} ${SYS_GROUP_AMAVISD} 0400 ${DKIM_KEY}
 
 # Update parameters.

@@ -122,7 +122,7 @@ full email address.
 * DKIM keys: /opt/iredmail/custom/amavisd/dkim
 * Run command below to get DKIM keys for DNS record:
 
-    /usr/sbin/amavisd-new showkeys
+    /usr/sbin/amavisd showkeys
 
 ## ClamAV
 
