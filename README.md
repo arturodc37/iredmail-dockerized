@@ -4,9 +4,6 @@ __WARNING__: THIS IS A BETA EDITION AND NOT ALWAYS STABLE, DO NOT TRY IT IN PROD
   Bug report, feedback, patches are always welcome.
 - Base image is [Ubuntu 24.04 (jammy)](https://hub.docker.com/_/ubuntu).
 - Dockerized iRedMail follows the [Best Practice of iRedMail Easy platform](https://docs.iredmail.org/iredmail-easy.best.practice.html).
-- 2 tags are available:
-  - `iredmail/mariadb:stable`: Stable version.
-  - `iredmail/mariadb:nightly`: Triggered by __EACH__ GitHub commit.
 
 # Quick start
 
