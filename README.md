@@ -1,3 +1,8 @@
+iRedmail docker image
+==
+
+**Important:** This is an unofficial image of iRedmail. We are just continuing the amazing work of Zhang Huangbin.
+
 __WARNING__: THIS IS A BETA EDITION AND NOT ALWAYS STABLE, DO NOT TRY IT IN PRODUCTION (YET).
 
 - Source code is hosted on [GitHub](https://github.com/iredmail/dockerized).
